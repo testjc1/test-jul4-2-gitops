@@ -1,0 +1,9 @@
+kind: Project
+apiVersion: project.openshift.io/v1
+metadata:
+  name: test-jul4-2-rhoai
+  labels:
+    kubernetes.io/metadata.name: test-jul4-2-rhoai
+    opendatahub.io/dashboard: 'true'
+  annotations:
+    openshift.io/display-name: test-jul4-2-rhoai
